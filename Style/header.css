@@ -1,0 +1,48 @@
+header{
+    position: fixed;
+    top: 0;
+    height:3rem;
+    width:100%;
+    background: rgb(146, 12, 12);
+    color: white;
+    z-index: 5;
+}
+.navigation{
+    float:left;
+    padding: 0.6rem 0 0 0.5rem;
+}
+.navbutton{
+    background: rgb(146, 12, 12);
+    color: white;
+    border-style: none;
+    font-size: 140%;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+.navbutton:hover {
+    font-size: 130%;
+}
+.pageName{
+    float:right;
+    padding: 0.4rem 0.5rem 0 0;
+    font-size: 170%;
+    font-weight: bold;
+}
+@media only screen and (max-width: 600px) {
+    .topbar {
+        height:3.1rem;
+    }
+    .navigation {
+        padding: 0.8rem 0 0 0.4rem;
+    }
+    .navbutton {
+        font-size: 130%;
+    }
+    .navbutton:hover {
+        font-size: 140%;
+    }
+    .pageName{
+        font-size: 170%;
+        padding-top: 5px;
+    }
+}
